@@ -1,4 +1,6 @@
 <style>
+
+/*=========================Home========================*/
         
 img {
     width: 300px;; 
@@ -10,7 +12,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgb(213, 252, 255);
-    background-image: url("bg.jpg");
+    height: 100%;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -94,6 +99,106 @@ footer a {
 }
 footer a:hover {
     text-decoration: underline;
+}
+
+
+/*===============================About Me======================*/
+
+.picture{
+    position: absolute;
+    right: 1%;
+    top: 9%;
+
+}
+
+.picture img{
+    width: 1120px;
+}
+.boxes{
+    /*position: absolute;*/
+    animation: floatUp 0.5s ease-in-out forwards;
+    margin-top: 15px;
+    margin-left: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.boxes .box1{
+    background:rgba(255,255,255,0.2);
+    padding:50px;
+    width: 800px;
+    animation: fadeIn 0.5s ease-in-out forwards;
+  }
+
+.boxes .box1 h2{
+    letter-spacing: 5px;
+    font-family: Titillium Web;
+    text-align:left;
+    font-size:26px;
+    font-weight:normal;
+    color:#000000;
+  }
+
+.boxes .box1 p1{
+    font-family:Titillium Web;
+    text-align:left;
+    font-size:20px;
+    font-weight:normal;
+    color:#00000082;
+}
+
+  .boxes .box2{
+    background:rgba(255,255,255,0.2);
+    margin-top: 1%;
+    width: 800px;
+    padding:50px;
+    animation: fadeIn 0.5s ease-in-out forwards;
+  }
+
+.boxes .box2 h3{
+    letter-spacing: 5px;
+    font-family: Titillium Web;
+    text-align:left;
+    font-size:26px;
+    font-weight:normal;
+    color:#000000;
+  }
+
+.boxes .box2 p2{
+    font-family:Titillium Web;
+    text-align:left;
+    font-size:20px;
+    font-weight:normal;
+    color:#00000082;
+  }
+
+  .boxes .box3{
+    margin-top: 0.5%;
+    width: 800px;
+    background:rgba(255,255,255,0.2);
+    padding:50px;
+    animation: fadeIn 0.5s ease-in-out forwards;
+  }
+
+.boxes .box3 h4{
+    letter-spacing: 5px;
+    font-family: Titillium Web;
+    text-align:left;
+    font-size:26px;
+    font-weight:normal;
+    color:#000000;
+  }
+
+.boxes .box3 p3{
+    font-family:Titillium Web;
+    text-align:left;
+    font-size:20px;
+    font-weight:normal;
+    color:#00000083;
 }
 
 </style>
